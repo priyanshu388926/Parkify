@@ -1,0 +1,23 @@
+{
+  "name": "parkify-contracts-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "node": "hardhat node",
+    "compile": "hardhat compile",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "seed:local": "hardhat run scripts/seed.js --network localhost",
+    "test": "hardhat test",
+    "backend": "node backend/src/server.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "mongoose": "^8.5.0",
+    "ethers": "^6.13.0"
+  }
+}

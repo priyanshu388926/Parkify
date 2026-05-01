@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+parkify-backend/node_modules/
+frontend/node_modules/
+parkify-backend/artifacts/
+parkify-backend/cache/
+parkify-backend/.env
+frontend/dist/
+*.log
